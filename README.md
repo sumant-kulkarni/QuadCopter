@@ -11,12 +11,12 @@ Neural network architecture was designed for Actor Class, Critic Class (State an
 # Task:
 An appropriate reward function was designed after several hours of fine tuning:
 The final reward function is :
-If current position is below target, reward is the current position. So lower curent position, lower reward.
+If current position is below target, reward is the current position. So lower current position, lower reward.
 If current position is above target, reward is double the target position - current position. So the higher it goes , lesser is the reward.
 If current position = target position , reward is highest = target position.
 
 # Final Result:
-After fine tunnning of the hyperparameters, the agent was trained successfully.
+After fine tuning of the hyper parameters, the agent was trained successfully.
 Also the z position value went up to the target level successfully.
 
 Proud to have achieved the result. Check the details in Quadcopter_Project.ipynb
